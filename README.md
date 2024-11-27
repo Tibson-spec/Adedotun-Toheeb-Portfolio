@@ -43,7 +43,10 @@ This project involved analyzing a large e-commerce dataset to uncover actionable
 
 ### **Key Insights**
 - **Seasonal Sales Trends**:  
-  - Sales peak in Q4 and Q3 for both Technology and Office Supplies, indicating the need for strategic promotions during this period. *(Visual: Q4 Sales by Category)*
+  - Sales peak in Q4 and Q3 for both Technology and Office Supplies, indicating the need for strategic promotions during this period.
+  
+  - *(Visual: Q4 Sales by Category)*
+![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/quarterly%20sales(Line%20Chart).PNG?raw=true)
 
 - **Profit Margins by Region**:  
   - The West and east region outperform other regions in profitability. Targeted campaigns in these areas could boost revenue by an estimated 10%. *(Visual: Profit Margins by Region)*
