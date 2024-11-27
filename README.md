@@ -45,14 +45,18 @@ This project involved analyzing a large e-commerce dataset to uncover actionable
 - **Seasonal Sales Trends**:  
   - Sales peak in Q4 and Q3 for both Technology and Office Supplies, indicating the need for strategic promotions during this period.
   
-  - *(Visual: Q4 Sales by Category)*
+  - *(Visual: Q4 and Q3 Sales by Category hover by)*
 ![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/quarterly%20sales(Line%20Chart).PNG?raw=true)
 
 - **Profit Margins by Region**:  
   - The West and east region outperform other regions in profitability. Targeted campaigns in these areas could boost revenue by an estimated 10%. *(Visual: Profit Margins by Region)*
 
 - **Customer Segment Purchase Behavior**:  
-  - **Consumer segment** shows the highest purchase frequency, followed by the **Corporate segment**. **Home Office** has the lowest frequency. Tailored loyalty programs for Consumers and Corporates could enhance retention. *(Visual: Purchase Frequency by Segment)*
+  - **Consumer segment** shows the highest purchase frequency, followed by the **Corporate segment**. **Home Office** has the lowest frequency. Tailored loyalty programs for Consumers and Corporates could enhance retention.
+
+ - *(Visual: Purchase Frequency by Segment)*
+![image](https://github.com/user-attachments/assets/4b781d92-aa44-4883-bf93-f68943cb2d6f)
+
 
 - **Profitability Analysis**:  
   - Added a **cost column** to calculate profit margins, revealing that **Technology** offers higher margins than **Office Supplies**. Focus on high-margin products to maximize profits.
