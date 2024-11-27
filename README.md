@@ -97,8 +97,8 @@ This project involved analyzing a large e-commerce dataset to uncover actionable
 Provide code snippets or screenshots of the key SQL queries, such as:  
 - Monthly sales and profit trends.  
 - Creating and populating the **Dim_Date** table.  
-- Cost and profit margin calculations.  
-*(Link to the full GitHub repository for detailed queries.)*
+- Cost and profit margin calculations.
+[Link to the full GitHub repository for detailed queries.](https://github.com/Tibson-spec/Sample-Superstore-Dataset-Project)
 
 ---
 
