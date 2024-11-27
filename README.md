@@ -1,4 +1,5 @@
-## **E-Commerce Sales Analysis Project**
+# Project 1
+### **E-Commerce Sales Analysis Project**
 
 ### **Overview**
 This project involved analyzing a large e-commerce dataset to uncover actionable insights that drive revenue, optimize costs, and improve customer satisfaction. By leveraging SQL, Excel, and Power BI, I conducted a comprehensive analysis of sales trends, profitability, and customer behavior. The findings were visualized using interactive dashboards, enabling stakeholders to make data-driven decisions effectively.
@@ -42,7 +43,7 @@ This project involved analyzing a large e-commerce dataset to uncover actionable
 
 ### **Key Insights**
 - **Seasonal Sales Trends**:  
-  - Sales peak in Q4 for both **Technology** and **Office Supplies**, indicating the need for strategic promotions during this period. *(Visual: Q4 Sales by Category)*
+  - Sales peak in Q4 for both Technology and Office Supplies, indicating the need for strategic promotions during this period. *(Visual: Q4 Sales by Category)*
 
 - **Profit Margins by Region**:  
   - The **West Coast** and **Midwest** outperform other regions in profitability. Targeted campaigns in these areas could boost revenue by an estimated 10%. *(Visual: Profit Margins by Region)*
