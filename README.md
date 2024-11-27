@@ -64,6 +64,7 @@ This project involved analyzing a large e-commerce dataset to uncover actionable
 - **Profitability Analysis**:  
   - Added a **cost column** to calculate profit margins, revealing that **Technology** offers higher margins than **Office Supplies**. Focus on high-margin products to maximize profits.
     
+
   - Profitability insights
 ![image](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/profitability%20insights.PNG?raw=true)
 
@@ -98,7 +99,8 @@ Provide code snippets or screenshots of the key SQL queries, such as:
 - Monthly sales and profit trends.  
 - Creating and populating the **Dim_Date** table.  
 - Cost and profit margin calculations.
-[Link to the full GitHub repository for detailed queries.](https://github.com/Tibson-spec/Sample-Superstore-Dataset-Project)
+
+[lick here 👉Link to the full GitHub repository for detailed queries👈](https://github.com/Tibson-spec/Sample-Superstore-Dataset-Project)
 
 ---
 
