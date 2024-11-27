@@ -6,7 +6,7 @@ This project involved analyzing a large e-commerce dataset to uncover actionable
 
 ---
 
-### **Objectives**
+### **Objectives*
 - Analyze sales and profitability trends across product categories and regions.
 - Identify high-performing customer segments and their purchasing behaviors.
 - Optimize inventory and pricing strategies through data-driven insights.
