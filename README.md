@@ -49,7 +49,10 @@ This project involved analyzing a large e-commerce dataset to uncover actionable
 ![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/quarterly%20sales(Line%20Chart).PNG?raw=true)
 
 - **Profit Margins by Region**:  
-  - The West and east region outperform other regions in profitability. Targeted campaigns in these areas could boost revenue by an estimated 10%. *(Visual: Profit Margins by Region)*
+  - The West and east region outperform other regions in profitability. Targeted campaigns in these areas could boost revenue by an estimated 10%.
+  
+  - *(Visual: Profit Margins by Region)*
+![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/PROFIT%20MARG.PNG?raw=true)
 
 - **Customer Segment Purchase Behavior**:  
   - **Consumer segment** shows the highest purchase frequency, followed by the **Corporate segment**. **Home Office** has the lowest frequency. Tailored loyalty programs for Consumers and Corporates could enhance retention.
