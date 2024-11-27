@@ -57,7 +57,7 @@ This project involved analyzing a large e-commerce dataset to uncover actionable
 ---
 
 ### **Visualizations**
-[![Thumbnail Caption](thumbnail-image.jpg)](full-size-image.jpg)
+[![Thumbnail Caption](thumbnail-image.jpg)](https://drive.google.com/file/d/1TmBDHX8B5GFZKp-y7unGjYVibrXIVyQn/view?usp=sharing)
 
 *Click to view the full-size image.*
 
