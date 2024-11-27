@@ -54,12 +54,15 @@ This project involved analyzing a large e-commerce dataset to uncover actionable
 - **Customer Segment Purchase Behavior**:  
   - **Consumer segment** shows the highest purchase frequency, followed by the **Corporate segment**. **Home Office** has the lowest frequency. Tailored loyalty programs for Consumers and Corporates could enhance retention.
 
- - *(Visual: Purchase Frequency by Segment)*
+  - *(Visual: Purchase Frequency by Segment)*
 ![image](https://github.com/user-attachments/assets/4b781d92-aa44-4883-bf93-f68943cb2d6f)
 
 
 - **Profitability Analysis**:  
   - Added a **cost column** to calculate profit margins, revealing that **Technology** offers higher margins than **Office Supplies**. Focus on high-margin products to maximize profits.
+    
+  - Profitability insights
+![image](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/profitability%20insights.PNG?raw=true)
 
 ---
 
