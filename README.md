@@ -6,7 +6,7 @@ This project involved analyzing a large e-commerce dataset to uncover actionable
 
 ---
 
-### **Objectives*
+### **Objectives**
 - Analyze sales and profitability trends across product categories and regions.
 - Identify high-performing customer segments and their purchasing behaviors.
 - Optimize inventory and pricing strategies through data-driven insights.
@@ -43,10 +43,10 @@ This project involved analyzing a large e-commerce dataset to uncover actionable
 
 ### **Key Insights**
 - **Seasonal Sales Trends**:  
-  - Sales peak in Q4 for both Technology and Office Supplies, indicating the need for strategic promotions during this period. *(Visual: Q4 Sales by Category)*
+  - Sales peak in Q4 and Q3 for both Technology and Office Supplies, indicating the need for strategic promotions during this period. *(Visual: Q4 Sales by Category)*
 
 - **Profit Margins by Region**:  
-  - The **West Coast** and **Midwest** outperform other regions in profitability. Targeted campaigns in these areas could boost revenue by an estimated 10%. *(Visual: Profit Margins by Region)*
+  - The West and east region outperform other regions in profitability. Targeted campaigns in these areas could boost revenue by an estimated 10%. *(Visual: Profit Margins by Region)*
 
 - **Customer Segment Purchase Behavior**:  
   - **Consumer segment** shows the highest purchase frequency, followed by the **Corporate segment**. **Home Office** has the lowest frequency. Tailored loyalty programs for Consumers and Corporates could enhance retention. *(Visual: Purchase Frequency by Segment)*
