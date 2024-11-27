@@ -1,6 +1,6 @@
 # Adedotun-Toheeb-Portfolio
 # Project 1
-### **Portfolio Project: HR Employee Attrition Analysis 
+### Portfolio Project: HR Employee Attrition Analysis 
 
 ---
 
@@ -140,10 +140,3 @@ This project highlights how data-driven approaches can empower organizations to 
 
 ---
 
-### **Tags for Portfolio Visibility**  
-- #DataAnalytics  
-- #SQL  
-- #PowerBI  
-- #HRAnalytics  
-- #EmployeeRetention  
-- #BusinessIntelligence  
