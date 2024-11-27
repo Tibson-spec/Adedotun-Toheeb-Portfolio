@@ -57,10 +57,16 @@ This project involved analyzing a large e-commerce dataset to uncover actionable
 ---
 
 ### **Visualizations**
-Include thumbnails with captions linking to full-size images or embedded dashboards:  
+[![Thumbnail Caption](thumbnail-image.jpg)](full-size-image.jpg)
+
+*Click to view the full-size image.*
+
 1. **Sales Trends**: Interactive chart showing monthly sales and profit margins by product category.  
-2. **Profit Margins by Region**: Heat map highlighting profitability differences.  
-3. **Customer Purchase Patterns**: Bar chart visualizing purchase frequency by segment.  
+2. **Profit Margins by Region**: Stacked bar chart highlighting profitability differences.  
+3. **Customer Purchase Patterns**: Clustered column chart visualizing purchase frequency by segment.
+4. Top 10 best performing customer: Stacked bar chart to depict best performing customer.
+5. Total transaction by ship mode: Pie chart showcasing which ship mode is prefered by customers.
+ 
 
 *(Use relevant visuals created in Power BI.)*
 
