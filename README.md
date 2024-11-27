@@ -50,23 +50,15 @@ This project involved analyzing a large e-commerce dataset to uncover actionable
 
 - **Profit Margins by Region**:  
   - The West and east region outperform other regions in profitability. Targeted campaigns in these areas could boost revenue by an estimated 10%.
-  
   - *(Visual: Profit Margins by Region)*
-![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/PROFIT%20MARG.PNG?raw=true)
 
 - **Customer Segment Purchase Behavior**:  
   - **Consumer segment** shows the highest purchase frequency, followed by the **Corporate segment**. **Home Office** has the lowest frequency. Tailored loyalty programs for Consumers and Corporates could enhance retention.
-
-  - *(Visual: Purchase Frequency by Segment)*
-![image](https://github.com/user-attachments/assets/4b781d92-aa44-4883-bf93-f68943cb2d6f)
-
+  -  *(Visual: Purchase Frequency by Segment)*
 
 - **Profitability Analysis**:  
   - Added a **cost column** to calculate profit margins, revealing that **Technology** offers higher margins than **Office Supplies**. Focus on high-margin products to maximize profits.
-    
-
-  - Profitability insights
-![image](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/profitability%20insights.PNG?raw=true)
+  - *(Visual: Profitability insights)*
 
 ---
 
@@ -75,11 +67,21 @@ This project involved analyzing a large e-commerce dataset to uncover actionable
 
 *Click to view the full-size image.*
 
-1. **Sales Trends**: Interactive chart showing monthly sales and profit margins by product category.  
-2. **Profit Margins by Region**: Stacked bar chart highlighting profitability differences.  
+1. **Sales Trends**: Interactive chart showing monthly sales and profit margins by product category.
+
+2. **Profit Margins by Region**: Stacked bar chart highlighting profitability differences.
+![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/PROFIT%20MARG.PNG?raw=true)
+ 
 3. **Customer Purchase Patterns**: Clustered column chart visualizing purchase frequency by segment.
-4. Top 10 best performing customer: Stacked bar chart to depict best performing customer.
-5. Total transaction by ship mode: Pie chart showcasing which ship mode is prefered by customers.
+![image](https://github.com/user-attachments/assets/4b781d92-aa44-4883-bf93-f68943cb2d6f)
+
+5. Top 10 best performing customer: Stacked bar chart to depict best performing customer.
+
+6. Total transaction by ship mode: Pie chart showcasing which ship mode is prefered by customers.
+
+7. Profitability Analysis: Pie chart illustrating the profit margin across various product category
+![image](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/profitability%20insights.PNG?raw=true)
+
  
 
 *(Use relevant visuals created in Power BI.)*
