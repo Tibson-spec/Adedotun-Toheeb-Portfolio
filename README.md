@@ -15,7 +15,7 @@ This project involved analyzing a large e-commerce dataset to uncover actionable
 ---
 
 ### **Project Workflow**
-*(Visualize this with a workflow diagram)*
+[!image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/workflow%20diagram.png?raw=true)
 
 1. **Data Collection & Cleaning**  
    - Cleaned and normalized raw datasets using Excel Power Query to remove inconsistencies, handle missing values, and standardize formats for seamless analysis.
