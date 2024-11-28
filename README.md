@@ -108,21 +108,38 @@ GROUP BY
     R.Region
 ORDER BY 
     Total_Sales DESC;
----
-2 
+```
+### 2. **Total Sales by Product Category** 
 ```sql
---Analyzing Total sales across different region
+--Analyzing Total sales by product category
 SELECT 
-    R.Region,
-    SUM(O.Sales) AS Total_Sales
+    P.Category,
+    ROUND(SUM(O.Sales),2) AS Total_Sales
 FROM 
     order_details O
 JOIN 
-    [Dim_Region table] R ON O.[Dim_Regiontable City_id] = R.City_id
+    [Dim_Products table] P ON O.[Product ID] = P.[Product ID]
 GROUP BY 
-    R.Region
+    P.Category
 ORDER BY 
     Total_Sales DESC;
+```
+
+### 2. **Analyzing Total sales by customer segment** 
+```sql
+SELECT 
+    C.Segment,
+    ROUND(SUM(O.Sales),2) AS Total_Sales
+FROM 
+    order_details O 
+JOIN 
+    [Dim_Customer table] C ON O.[Customer ID] = C.[Customer ID]
+GROUP BY 
+    C.Segment
+ORDER BY 
+    Total_Sales DESC;
+```
+    
 Provide code snippets or screenshots of the key SQL queries, such as:  
 - Monthly sales and profit trends.  
 - Creating and populating the **Dim_Date** table.  
