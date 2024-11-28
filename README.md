@@ -68,7 +68,7 @@ This project involved analyzing a large e-commerce dataset to uncover actionable
 ![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/Sale%20Trend%20(area%20chart).PNG?raw=true)
 
 2. **Profit Performance by Region**: Stacked bar chart highlighting profitability differences.
-![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/PROFIT%20MARG.PNG?raw=true)
+![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/images%20folderimages/PROFIT%20MARG.PNG?raw=true)
  
 3. **Customer Purchase Patterns**: Clustered column chart visualizing purchase frequency by segment.
 ![image](https://github.com/user-attachments/assets/4b781d92-aa44-4883-bf93-f68943cb2d6f)
