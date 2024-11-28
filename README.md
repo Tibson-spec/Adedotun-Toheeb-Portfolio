@@ -62,7 +62,7 @@ This project involved analyzing a large e-commerce dataset to uncover actionable
 
 ### **Visualizations**
 ### Sales Overview Dashboard
-[![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/SALES%20%20TREND.PNG?raw=true)
+![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/SALES%20%20TREND.PNG?raw=true)
 
 1. **Sales Trends**: Interactive chart showing monthly sales.
 ![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/Sale%20Trend%20(area%20chart).PNG?raw=true)
@@ -100,7 +100,7 @@ Provide code snippets or screenshots of the key SQL queries, such as:
 - Creating and populating the **Dim_Date** table.  
 - Cost and profit margin calculations.
 
-[lick here 👉Link to the full GitHub repository for detailed queries👈](https://github.com/Tibson-spec/Sample-Superstore-Dataset-Project)
+[click here 👉Link to the full GitHub repository for detailed queries👈](https://github.com/Tibson-spec/Sample-Superstore-Dataset-Project)
 
 ---
 
