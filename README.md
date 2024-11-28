@@ -61,12 +61,12 @@ This project involved analyzing a large e-commerce dataset to uncover actionable
 ---
 
 ### **Visualizations**
-[![Thumbnail Caption](thumbnail-image.jpg)](https://drive.google.com/file/d/1TmBDHX8B5GFZKp-y7unGjYVibrXIVyQn/view?usp=sharing)
+[![Thumbnail Caption](![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/SALES%20%20TREND.PNG?raw=true)
+)](https://drive.google.com/file/d/1TmBDHX8B5GFZKp-y7unGjYVibrXIVyQn/view?usp=sharing)
 
 *Click to view the full-size image.*
 
 1. **Sales Trends**: Interactive chart showing monthly sales and profit margins by product category.
-![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/SALES%20%20TREND.PNG?raw=true)
 
 3. **Profit Performance by Region**: Stacked bar chart highlighting profitability differences.
 ![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/PROFIT%20MARG.PNG?raw=true)
