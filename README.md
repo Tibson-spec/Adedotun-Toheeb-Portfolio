@@ -62,7 +62,7 @@ This project involved analyzing a large e-commerce dataset to uncover actionable
 
 ### **Visualizations**
 ### Sales Overview Dashboard
-![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/SALES%20%20TREND.PNG?raw=true)
+![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/images%20folderimages/SALES%20%20TREND.PNG?raw=true)
 
 1. **Sales Trends**: Interactive chart showing monthly sales.
 ![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/Sale%20Trend%20(area%20chart).PNG?raw=true)
