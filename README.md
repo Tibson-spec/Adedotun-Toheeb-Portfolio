@@ -92,8 +92,8 @@ This project involved analyzing a large e-commerce dataset to uncover actionable
 
 ---
 
-### **SQL Queries Highlights**
-## **SQL Query and Analysis**  
+## **SQL Queries Highlights**
+### **SQL Query and Analysis**  
 ### 1. **Total Sales by Region**  
 ```sql
 --Analyzing Total sales across different region
@@ -197,6 +197,7 @@ This project showcases my ability to handle end-to-end data analysis processes, 
 ---
 
 
+
 # Project 2
 ### Portfolio Project: HR Employee Attrition Analysis 
 
@@ -215,18 +216,18 @@ This project dives into employee attrition, leveraging SQL and Power BIto analyz
 ---
 
 ### **Dataset**  
-- **Source:Public HR dataset containing 1,470 employee records.  
-- **Features Analyzed:**  
-  - **Demographics:** Age, gender, marital status.  
-  - **Job Details:** Job role, monthly income, satisfaction levels.  
-  - **Attrition Factors:** Overtime, work-life balance, distance from home.  
+- Source:Public HR dataset containing 1,470 employee records.  
+- Features Analyzed: 
+  - Demographics: Age, gender, marital status.  
+  - Job Details: Job role, monthly income, satisfaction levels.  
+  - Attrition Factors:** Overtime, work-life balance, distance from home.  
 
 ---
 
 ### **Tools & Technologies**  
-- **SQL Server:For data cleaning, querying, and exploratory analysis.  
-- **Power BI:For creating dynamic, interactive dashboards with DAX calculations.  
-- **Excel:** Pre-processing and initial data exploration.  
+- SQL Server:For data cleaning, querying, and exploratory analysis.  
+- Power BI:For creating dynamic, interactive dashboards with DAX calculations.  
+- Excel: Pre-processing and initial data exploration.  
 
 ---
 
@@ -285,7 +286,7 @@ The first step was cleaning and analyzing the dataset using SQL queries.
     ORDER BY AttritionRate DESC;
     ```
   
-    - **Average monthly income by job role:**  
+  - **Average monthly income by job role:**  
     ```sql
     SELECT 
     j.JobRoleName,
@@ -298,8 +299,8 @@ The first step was cleaning and analyzing the dataset using SQL queries.
     j.JobRoleName
     ORDER BY AvgMonthlyIncome DESC;
     ```
-    
- - **Attrition Rate by Age Group:**  
+
+   - **Attrition Rate by Age Group:**  
     ```sql
     SELECT 
     CASE 
@@ -325,22 +326,22 @@ The first step was cleaning and analyzing the dataset using SQL queries.
     AttritionRate DESC;
       ``` 
 
- --Work-Life Balance vs. Attrition(This query helps identify if a poor work-life balance is correlated with higher attrition rates).
+- **Work-Life Balance vs. Attrition(This query helps identify if a poor work-life balance is correlated with higher attrition rates):**
   ```sql
- SELECT 
+  SELECT 
     WorkLifeBalance,
     COUNT(EmployeeID) AS TotalEmployees,
     SUM(CASE WHEN Attrition = 1 THEN 1 ELSE 0 END) AS AttritionCount,
     ROUND(CAST(SUM(CASE WHEN Attrition = 1 THEN 1 ELSE 0 END) AS FLOAT) / COUNT(EmployeeID) * 100, 2) AS AttritionRate
-FROM 
+  FROM 
     FactEmployeeAttrition
-GROUP BY 
+  GROUP BY 
     WorkLifeBalance
-ORDER BY 
+  ORDER BY 
     AttritionRate DESC;
 ```
 
- --Average Tenure of Employees by Department(Examining the average number of years employees stay in each department).
+- **Average Tenure of Employees by Department(Examining the average number of years employees stay in each department):**
  ```sql
 SELECT 
     d.DepartmentName AS Department,
@@ -355,7 +356,7 @@ ORDER BY
     AvgYearsAtCompany DESC;
 ```
 
---how does the work enviroment influence attrition rate.
+- **how does the work enviroment influence attrition rate:**
  ```sql
 SELECT 
     EnvironmentSatisfaction,
