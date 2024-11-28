@@ -125,7 +125,7 @@ ORDER BY
     Total_Sales DESC;
 ```
 
-### 2. **Analyzing Total sales by customer segment** 
+### 3. **Analyzing Total sales by customer segment** 
 ```sql
 SELECT 
     C.Segment,
@@ -139,9 +139,33 @@ GROUP BY
 ORDER BY 
     Total_Sales DESC;
 ```
-    
-Provide code snippets or screenshots of the key SQL queries, such as:  
-- Monthly sales and profit trends.  
+### 4. **Monthly sales trend i.e determining which month make the most sales** 
+```sql
+SELECT 
+    DATENAME(MONTH, [Order Date]) AS Month,
+	FORMAT([Order Date], 'MM') AS Month_In_Num,
+    ROUND(SUM(Sales),2) AS Monthly_Sales
+FROM 
+    order_details
+GROUP BY 
+    DATENAME(MONTH, [Order Date]),
+	FORMAT([Order Date], 'MM')
+ORDER BY 
+    Monthly_Sales DESC;
+```
+
+### 5. **Analyzing Yearly Sales Trend** 
+```sql
+SELECT 
+    YEAR([Order Date]) AS Year,
+    ROUND(SUM(Sales),2) AS Yearly_Sales
+FROM 
+    order_details
+GROUP BY 
+    YEAR([Order Date])
+ORDER BY 
+    Year DESC;
+```
 - Creating and populating the **Dim_Date** table.  
 - Cost and profit margin calculations.
 
@@ -214,27 +238,137 @@ The first step was cleaning and analyzing the dataset using SQL queries.
 - **Data Cleaning: 
   ```sql
   SELECT *  
-  FROM Employees  
-  WHERE MonthlyIncome IS NOT NULL;  
+  FROM [HR-Employee-Attrition]  
+  WHERE MonthlyIncome IS NOT NULL;
+
+  --HR Attrition Data Cleaning and Normalization
+   Inspect the first few rows to understand the structure
+   SELECT TOP 10 * FROM [HR-Employee-Attrition];
+
+  -- Check for null values in each column to identify missing data
+  SELECT 
+    SUM(CASE WHEN Age IS NULL THEN 1 ELSE 0 END) AS MissingAge,
+    SUM(CASE WHEN Department IS NULL THEN 1 ELSE 0 END) AS MissingDepartment
+  FROM 
+    [HR-Employee-Attrition];
+
+  -- Add a unique EmployeeID column to the staging table i.e source table
+  ALTER TABLE [HR-Employee-Attrition]
+  ADD Employee_ID INT IDENTITY(1,1) PRIMARY KEY;
+
+  -- Check for duplicate rows
+  SELECT 
+    Employee_ID, 
+    COUNT(*) AS DuplicateCount
+  FROM 
+    [HR-Employee-Attrition]
+  GROUP BY 
+    Employee_ID
+  HAVING 
+    COUNT(*) > 1; 
   ```  
 
 - **Key Queries:**  
-  - **Attrition by Monthly Income:**  
+  - **Calculate the attrition rate across different departments:**  
     ```sql
-    SELECT MonthlyIncome, COUNT(*) AS AttritionCount  
-    FROM Employees  
-    WHERE Attrition = 'Yes'  
-    GROUP BY MonthlyIncome  
-    ORDER BY AttritionCount DESC;  
-    ```  
+    SELECT 
+    d.DepartmentName,
+    COUNT(f.EmployeeID) AS TotalEmployees,
+    COUNT(CASE WHEN Attrition = 1 THEN 1 END) AS AttritionCount,
+    ROUND(COUNT(CASE WHEN f.Attrition = 1 THEN 1 END) * 100.0 / COUNT(f.EmployeeID),2) AS AttritionRate
+    FROM 
+         FactEmployeeAttrition f
+    JOIN 
+         DimDepartment d ON f.DepartmentID = d.DepartmentID
+    GROUP BY 
+         d.DepartmentName
+    ORDER BY AttritionRate DESC;
+    ```
+  
+    - **Average monthly income by job role:**  
+    ```sql
+    SELECT 
+    j.JobRoleName,
+    ROUND(AVG(f.MonthlyIncome),2) AS AvgMonthlyIncome
+    FROM 
+    FactEmployeeAttrition f
+    JOIN 
+    DimJobRole j ON f.JobRoleID = j.JobRoleID
+    GROUP BY 
+    j.JobRoleName
+    ORDER BY AvgMonthlyIncome DESC;
+    ```
+    
+ - **Attrition Rate by Age Group:**  
+    ```sql
+    SELECT 
+    CASE 
+        WHEN Age < 30 THEN '20-29'
+        WHEN Age BETWEEN 30 AND 39 THEN '30-39'
+        WHEN Age BETWEEN 40 AND 49 THEN '40-49'
+        WHEN Age BETWEEN 50 AND 59 THEN '50-59'
+        ELSE '60+' 
+    END AS AgeGroup,
+    COUNT(EmployeeID) AS TotalEmployees,
+    ROUND(COUNT(CASE WHEN f.Attrition = 1 THEN 1 END) * 100.0 / COUNT(f.EmployeeID),2) AS AttritionRate
+    FROM 
+    FactEmployeeAttrition f
+    GROUP BY 
+    CASE 
+        WHEN Age < 30 THEN '20-29'
+        WHEN Age BETWEEN 30 AND 39 THEN '30-39'
+        WHEN Age BETWEEN 40 AND 49 THEN '40-49'
+        WHEN Age BETWEEN 50 AND 59 THEN '50-59'
+        ELSE '60+' 
+    END
+    ORDER BY 
+    AttritionRate DESC;
+      ``` 
 
-  - **Work-Life Balance vs. Attrition:**  
-    ```sql
-    SELECT WorkLifeBalance, COUNT(*) AS AttritionCount  
-    FROM Employees  
-    WHERE Attrition = 'Yes'  
-    GROUP BY WorkLifeBalance;  
-    ```  
+ --Work-Life Balance vs. Attrition(This query helps identify if a poor work-life balance is correlated with higher attrition rates).
+  ```sql
+ SELECT 
+    WorkLifeBalance,
+    COUNT(EmployeeID) AS TotalEmployees,
+    SUM(CASE WHEN Attrition = 1 THEN 1 ELSE 0 END) AS AttritionCount,
+    ROUND(CAST(SUM(CASE WHEN Attrition = 1 THEN 1 ELSE 0 END) AS FLOAT) / COUNT(EmployeeID) * 100, 2) AS AttritionRate
+FROM 
+    FactEmployeeAttrition
+GROUP BY 
+    WorkLifeBalance
+ORDER BY 
+    AttritionRate DESC;
+```
+
+ --Average Tenure of Employees by Department(Examining the average number of years employees stay in each department).
+ ```sql
+SELECT 
+    d.DepartmentName AS Department,
+    AVG(f.YearsAtCompany) AS AvgYearsAtCompany
+FROM 
+    FactEmployeeAttrition f
+JOIN 
+    DimDepartment d ON f.DepartmentID = d.DepartmentID
+GROUP BY 
+    d.DepartmentName
+ORDER BY 
+    AvgYearsAtCompany DESC;
+```
+
+--how does the work enviroment influence attrition rate.
+ ```sql
+SELECT 
+    EnvironmentSatisfaction,
+    COUNT(CASE WHEN Attrition = 1 THEN 1 END) AS AttritionCount,
+    COUNT(EmployeeID) AS TotalEmployees,
+    COUNT(CASE WHEN Attrition = 1 THEN 1 END) * 100.0 / COUNT(EmployeeID) AS AttritionRate
+FROM 
+    FactEmployeeAttrition
+GROUP BY 
+    EnvironmentSatisfaction
+ORDER BY 
+    EnvironmentSatisfaction DESC;
+```
 
 - **SQL Insights:**  
   - Employees earning <$3,000/month showed higher attrition rates.  
