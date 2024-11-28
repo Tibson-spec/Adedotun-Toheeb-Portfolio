@@ -76,10 +76,10 @@ This project involved analyzing a large e-commerce dataset to uncover actionable
 4. Top 10 best performing customer: Stacked bar chart to depict best performing customer.
 ![image](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/images%20folderimages/Top%2010.PNG?raw=true)
 
-6. Total transaction by ship mode: Pie chart showcasing which ship mode is prefered by customers.
-![image](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/Total%20Transaction%20by%20shipmode.PNG?raw=true)
+5. Total transaction by ship mode: Pie chart showcasing which ship mode is prefered by customers.
+![image](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/images%20folderimages/Total%20Transaction%20by%20shipmode.PNG?raw=true)
 
-8. Profitability Analysis: Pie chart illustrating the profit margin across various product category
+6. Profitability Analysis: Pie chart illustrating the profit margin across various product category
 ![image](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/images%20folderimages/Profit%20Margin%20by%20product%20category.PNG?raw=true)
 
 ---
