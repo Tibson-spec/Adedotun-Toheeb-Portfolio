@@ -61,9 +61,8 @@ This project involved analyzing a large e-commerce dataset to uncover actionable
 ---
 
 ### **Visualizations**
-[Click to view the full-size image][![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/SALES%20%20TREND.PNG?raw=true)
-)](https://drive.google.com/file/d/1TmBDHX8B5GFZKp-y7unGjYVibrXIVyQn/view?usp=sharing)
-
+### Sales Overview Dashboard
+[![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/SALES%20%20TREND.PNG?raw=true (https://drive.google.com/file/d/1TmBDHX8B5GFZKp-y7unGjYVibrXIVyQn/view?usp=sharing)
 
 1. **Sales Trends**: Interactive chart showing monthly sales.
 ![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/Sale%20Trend%20(area%20chart).PNG?raw=true)
@@ -75,7 +74,7 @@ This project involved analyzing a large e-commerce dataset to uncover actionable
 ![image](https://github.com/user-attachments/assets/4b781d92-aa44-4883-bf93-f68943cb2d6f)
 
 4. Top 10 best performing customer: Stacked bar chart to depict best performing customer.
-![image](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/Top%2010.PNG?raw=true
+![image](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/Top%2010.PNG?raw=true)
 
 6. Total transaction by ship mode: Pie chart showcasing which ship mode is prefered by customers.
 
