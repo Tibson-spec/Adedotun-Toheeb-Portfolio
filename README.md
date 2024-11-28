@@ -93,6 +93,36 @@ This project involved analyzing a large e-commerce dataset to uncover actionable
 ---
 
 ### **SQL Queries Highlights**
+## **SQL Query and Analysis**  
+### 1. **Total Sales by Region**  
+```sql
+--Analyzing Total sales across different region
+SELECT 
+    R.Region,
+    SUM(O.Sales) AS Total_Sales
+FROM 
+    order_details O
+JOIN 
+    [Dim_Region table] R ON O.[Dim_Regiontable City_id] = R.City_id
+GROUP BY 
+    R.Region
+ORDER BY 
+    Total_Sales DESC;
+---
+2 
+```sql
+--Analyzing Total sales across different region
+SELECT 
+    R.Region,
+    SUM(O.Sales) AS Total_Sales
+FROM 
+    order_details O
+JOIN 
+    [Dim_Region table] R ON O.[Dim_Regiontable City_id] = R.City_id
+GROUP BY 
+    R.Region
+ORDER BY 
+    Total_Sales DESC;
 Provide code snippets or screenshots of the key SQL queries, such as:  
 - Monthly sales and profit trends.  
 - Creating and populating the **Dim_Date** table.  
