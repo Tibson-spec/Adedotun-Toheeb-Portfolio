@@ -66,11 +66,12 @@ This project involved analyzing a large e-commerce dataset to uncover actionable
 *Click to view the full-size image.*
 
 1. **Sales Trends**: Interactive chart showing monthly sales and profit margins by product category.
+![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/SALES%20%20TREND.PNG?raw=true)
 
-2. **Profit Margins by Region**: Stacked bar chart highlighting profitability differences.
+3. **Profit Performance by Region**: Stacked bar chart highlighting profitability differences.
 ![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/PROFIT%20MARG.PNG?raw=true)
  
-3. **Customer Purchase Patterns**: Clustered column chart visualizing purchase frequency by segment.
+4. **Customer Purchase Patterns**: Clustered column chart visualizing purchase frequency by segment.
 ![image](https://github.com/user-attachments/assets/4b781d92-aa44-4883-bf93-f68943cb2d6f)
 
 5. Top 10 best performing customer: Stacked bar chart to depict best performing customer.
