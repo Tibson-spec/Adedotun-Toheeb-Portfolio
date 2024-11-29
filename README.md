@@ -166,7 +166,44 @@ GROUP BY
 ORDER BY 
     Year DESC;
 ```
-- Creating and populating the **Dim_Date** table.  
+
+- Creating and populating the **Dim_Date** table.
+```sql
+  -- Create date dimension table
+CREATE TABLE DateTable (
+    DateKey DATE PRIMARY KEY,
+    Year INT,
+    Month INT,
+    Day INT,
+	MonthName NVARCHAR(20) NOT NULL,
+    Quarter INT NOT NULL
+);
+
+--Populate date dimension table
+INSERT INTO DateTable (DateKey, Year, Month, Day,MonthName,Quarter)
+SELECT DISTINCT 
+    CAST([Order Date] AS DATE) AS DateKey,
+    YEAR([Order Date]) AS Year,
+    MONTH([Order Date]) AS Month,
+    DAY([Order Date]) AS Day,
+	DATENAME(Month,[Order Date]) AS Monthname,
+    DATEPART(QUARTER, [Order Date]) AS Quarter
+FROM order_details
+WHERE [Order Date] IS NOT NULL;
+
+--Altering fact table to add foreign key for relationships
+ALTER TABLE order_details
+ADD DateID DATE;             -- Match the data type with DateKey in DateTable
+
+--Updating and populating the foreign key in order detail table
+UPDATE order_details
+SET DateID = (
+    SELECT DateKey
+    FROM DateTable
+    WHERE CAST(order_details.[Order Date] AS DATE) = DateTable.DateKey
+);
+```
+  
 - Cost and profit margin calculations.
 
 [click here 👉Link to the full GitHub repository for detailed queries👈](https://github.com/Tibson-spec/Sample-Superstore-Dataset-Project)
