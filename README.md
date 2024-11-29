@@ -255,8 +255,8 @@ This project showcases my ability to handle end-to-end data analysis processes, 
 ---
 
 ### **Live Demo & GitHub**
-- **Interactive Dashboard**: [Link to Power BI report]  
-- **GitHub Repository**: [Link to repository with all scripts, data, and documentation]  
+- **Interactive Dashboard**: [Link to Power BI report](https://drive.google.com/file/d/1TmBDHX8B5GFZKp-y7unGjYVibrXIVyQn/view?usp=sharing) 
+- **GitHub Repository**: [Link to repository with all scripts, data, and documentation](https://github.com/Tibson-spec/Sample-Superstore-Dataset-Project) 
 
 ---
 
