@@ -323,7 +323,7 @@ The first step was cleaning and analyzing the dataset using SQL queries.
     ORDER BY AttritionRate DESC;
     ```
   
-  - **Average monthly income by job role:**  
+- **Average monthly income by job role:**  
     ```sql
     SELECT 
     j.JobRoleName,
@@ -337,7 +337,7 @@ The first step was cleaning and analyzing the dataset using SQL queries.
     ORDER BY AvgMonthlyIncome DESC;
     ```
 
-   - **Attrition Rate by Age Group:**  
+- **Attrition Rate by Age Group:**  
     ```sql
     SELECT 
     CASE 
@@ -376,10 +376,10 @@ The first step was cleaning and analyzing the dataset using SQL queries.
     WorkLifeBalance
     ORDER BY 
     AttritionRate DESC;
-```
+  ```
 
 - **Average Tenure of Employees by Department(Examining the average number of years employees stay in each department):**
-```sql
+  ```sql
    SELECT 
     d.DepartmentName AS Department,
     AVG(f.YearsAtCompany) AS AvgYearsAtCompany
@@ -391,7 +391,7 @@ The first step was cleaning and analyzing the dataset using SQL queries.
     d.DepartmentName
     ORDER BY 
     AvgYearsAtCompany DESC;
-```
+  ```
 
 - **how does the work enviroment influence attrition rate:**
  ```sql
