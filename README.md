@@ -58,6 +58,7 @@ This project involved analyzing a large e-commerce dataset to uncover actionable
   - Added a **cost column** to calculate profit margins, revealing that **Technology** offers higher margins than **Office Supplies**. Focus on high-margin products to maximize profits.
   - *(Visual: Profitability insights)*
 
+- Monthly Trends: Specific months, such as November and December, see the highest purchase activity.
 ---
 
 ### **Visualizations**
@@ -89,6 +90,8 @@ This project involved analyzing a large e-commerce dataset to uncover actionable
 - Focus marketing efforts on the **West Coast** and **Midwest** regions for higher profitability.  
 - Implement loyalty programs for **Consumer** and **Corporate** segments to enhance customer retention.  
 - Optimize inventory for high-margin products like **Technology** to increase overall profit.
+- Stock high-demand Technology products in anticipation of Q4 peaks to avoid stockouts.
+- Diversify marketing efforts in slower months like Q1 to boost sales.
 
 ---
 
