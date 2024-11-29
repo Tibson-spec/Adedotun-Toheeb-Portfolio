@@ -307,7 +307,7 @@ The first step was cleaning and analyzing the dataset using SQL queries.
   ```  
 
 - **Key Queries:**  
-  - **Calculate the attrition rate across different departments:**  
+- **Calculate the attrition rate across different departments:**  
     ```sql
     SELECT 
     d.DepartmentName,
@@ -391,7 +391,7 @@ The first step was cleaning and analyzing the dataset using SQL queries.
     d.DepartmentName
     ORDER BY 
     AvgYearsAtCompany DESC;
-  ```
+   ```
 
 - **how does the work enviroment influence attrition rate:**
  ```sql
