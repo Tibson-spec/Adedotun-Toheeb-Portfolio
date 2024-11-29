@@ -167,7 +167,7 @@ ORDER BY
     Year DESC;
 ```
 
-- Creating and populating the **Dim_Date** table.
+### 6. Creating and populating the **Dim_Date** table.
 ```sql
   -- Create date dimension table
 CREATE TABLE DateTable (
@@ -273,7 +273,7 @@ This project dives into employee attrition, leveraging SQL and Power BIto analyz
 #### 1. SQL Data Analysis 
 The first step was cleaning and analyzing the dataset using SQL queries.  
 
-- **Data Cleaning: 
+- Data Cleaning: 
   ```sql
   SELECT *  
   FROM [HR-Employee-Attrition]  
@@ -365,46 +365,46 @@ The first step was cleaning and analyzing the dataset using SQL queries.
 
 - **Work-Life Balance vs. Attrition(This query helps identify if a poor work-life balance is correlated with higher attrition rates):**
   ```sql
-  SELECT 
+    SELECT 
     WorkLifeBalance,
     COUNT(EmployeeID) AS TotalEmployees,
     SUM(CASE WHEN Attrition = 1 THEN 1 ELSE 0 END) AS AttritionCount,
     ROUND(CAST(SUM(CASE WHEN Attrition = 1 THEN 1 ELSE 0 END) AS FLOAT) / COUNT(EmployeeID) * 100, 2) AS AttritionRate
-  FROM 
+    FROM 
     FactEmployeeAttrition
-  GROUP BY 
+    GROUP BY 
     WorkLifeBalance
-  ORDER BY 
+    ORDER BY 
     AttritionRate DESC;
 ```
 
 - **Average Tenure of Employees by Department(Examining the average number of years employees stay in each department):**
- ```sql
-SELECT 
+```sql
+   SELECT 
     d.DepartmentName AS Department,
     AVG(f.YearsAtCompany) AS AvgYearsAtCompany
-FROM 
+    FROM 
     FactEmployeeAttrition f
-JOIN 
+    JOIN 
     DimDepartment d ON f.DepartmentID = d.DepartmentID
-GROUP BY 
+    GROUP BY 
     d.DepartmentName
-ORDER BY 
+    ORDER BY 
     AvgYearsAtCompany DESC;
 ```
 
 - **how does the work enviroment influence attrition rate:**
  ```sql
-SELECT 
+    SELECT 
     EnvironmentSatisfaction,
     COUNT(CASE WHEN Attrition = 1 THEN 1 END) AS AttritionCount,
     COUNT(EmployeeID) AS TotalEmployees,
     COUNT(CASE WHEN Attrition = 1 THEN 1 END) * 100.0 / COUNT(EmployeeID) AS AttritionRate
-FROM 
+    FROM 
     FactEmployeeAttrition
-GROUP BY 
+    GROUP BY 
     EnvironmentSatisfaction
-ORDER BY 
+    ORDER BY 
     EnvironmentSatisfaction DESC;
 ```
 
