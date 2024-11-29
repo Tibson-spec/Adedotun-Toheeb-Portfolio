@@ -306,7 +306,7 @@ The first step was cleaning and analyzing the dataset using SQL queries.
     COUNT(*) > 1; 
   ```  
 
-- **Key Queries:**  
+### **Key Queries:**  
 - **Calculate the attrition rate across different departments:**  
     ```sql
     SELECT 
@@ -377,7 +377,6 @@ The first step was cleaning and analyzing the dataset using SQL queries.
     ORDER BY 
     AttritionRate DESC;
   ```
-
 - **Average Tenure of Employees by Department(Examining the average number of years employees stay in each department):**
   ```sql
    SELECT 
@@ -392,8 +391,7 @@ The first step was cleaning and analyzing the dataset using SQL queries.
     ORDER BY 
     AvgYearsAtCompany DESC;
    ```
-
-- **how does the work enviroment influence attrition rate:**
+ - **how does the work enviroment influence attrition rate:**
  ```sql
     SELECT 
     EnvironmentSatisfaction,
@@ -406,7 +404,7 @@ The first step was cleaning and analyzing the dataset using SQL queries.
     EnvironmentSatisfaction
     ORDER BY 
     EnvironmentSatisfaction DESC;
-```
+   ```
 
 - **SQL Insights:**  
   - Employees earning <$3,000/month showed higher attrition rates.  
