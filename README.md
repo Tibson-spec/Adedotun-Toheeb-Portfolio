@@ -431,18 +431,27 @@ The cleaned datasets was imported into Power BI for visualization.
 ### **Key Insights**  
 1. **Compensation Impact:** Employees earning <$3,000/month are at the highest risk of leaving.  
 2. **Marital Status:** Single employees show a higher attrition rate than married ones.  
-3. **Work-Life Balance:** Employees with low ratings are more likely to leave.  
+3. **Work-Life Balance:** Work-Life Balance is Crucial: Employees with ratings of 1 or 2 (Poor and V.Poor) show a 40% higher attrition rate.
 4. **Distance Matters:** Employees commuting >20 km are likelier to leave.  
-5. **Job Satisfaction:** Dissatisfied employees (rating 1) have a 35% higher likelihood of leaving.  
+5. **Job Satisfaction:** Dissatisfied employees rated 1 (Very Disatisfied) have a 35% higher likelihood of leaving.
+6. Attrition Rate: High attrition rate observed in specific departments such as Sales and Human Resources.
+7. Age Group Impact: Younger employees (Age 20-30) and single employees show higher attrition rates.
+8. Job Role Variations: Sales Executives and Lab Technicians have the highest attrition.
+9. High-performing employees tend to stay longer when they perceive opportunities for career growth.
+10. Employees working overtime are more likely to leave, especially if paired with poor work-life balance (rated 1 or 2).
+Retrenchment disproportionately impacts employees with poor work-life balance.
+
 
 ---
 
-### **Recommendations**  
-1. **Salary Adjustments:** Address compensation gaps for employees in critical income brackets.  
-2. **Flexible Work Policies:** Enable remote or hybrid working models to improve work-life balance.  
-3. **Retention Programs:** Implement targeted programs for high-risk groups (e.g., younger employees or those undergoing life transitions).  
-4. **Commute Incentives:** Provide transportation allowances or relocation benefits.  
-5. **Mentorship and Growth Opportunities:** Engage employees through upskilling and career progression programs.  
+## **Recommendations**  
+1. **Salary Adjustments:** Improve salaries for employees earning less than $3,000/month.  
+2. **Support Work-Life Balance:** Introduce flexible hours and remote work options.  
+3. **Targeted Retention Efforts:** Focus on single employees through engagement programs such as surveys, team-building activities, and leadership feedback. 
+4. **Commute Incentives:** Provide transportation assistance or offer relocation benefits.
+5. Retention Programs: Design and implement data-driven retention programs to target high-risk employee groups.
+6. Create mentorship and upskilling programs to engage younger employees.
+7. Provide additional support to employees undergoing life transitions, such as divorce.   
 
 ---
 
