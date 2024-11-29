@@ -440,10 +440,15 @@ The first step was cleaning and analyzing the dataset using SQL queries.
 #### **2. Power BI Dashboard Creation**  
 The cleaned datasets was imported into Power BI for visualization.  
 
-- **Visualizations Included:**  
+- **Visualizations Included:**
+  - **Overview dashboard
   - **Attrition by Job Role:** Highlighting roles with the highest turnover.  
   - **Work-Life Balance vs. Attrition:** Demonstrating the impact of low satisfaction.  
-  - **Attrition by Marital Status:** Revealing single employees’ higher likelihood of leaving.  
+  - **Attrition by Marital Status:** Revealing single employees’ higher likelihood of leaving.
+  - Attrition by Overtime: Hov overtime drives attrition
+  - Attrition by Educationfield
+  - Attrition by Department: Highlighting the department with largest attrition rATE
+  - Attrition by BussinessTravel e.t.c
 
 - **Dashboard Features:**  
   - Interactive slicers for filtering by department, income, and satisfaction levels.  
