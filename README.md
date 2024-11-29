@@ -206,9 +206,33 @@ SET DateID = (
     WHERE CAST(order_details.[Order Date] AS DATE) = DateTable.DateKey
 );
 ```
-  
-- Cost and profit margin calculations.
+### 7. **Cost and profit margin calculations** 
+```sql
+--Adding cost column to order details table (Cost and profit margin calculations.)
+ALTER TABLE order_details
+ADD Cost DECIMAL(10, 2);    -- Adjust the data type as needed
 
+--Populating the cost column with calculation
+UPDATE order_details
+SET Cost = Sales * Quantity;
+
+SELECT
+    p.Category,
+    r.Region,
+    ROUND(SUM(Sales),2) AS Total_Sales,
+    ROUND(SUM(o.Cost),2) AS Total_Cost,
+    ROUND(SUM(Sales - Cost),2) AS Total_Profit,
+    ROUND((SUM(Sales - Cost) / SUM(Sales)) * 100, 2) AS Profit_Margin_Percent
+FROM 
+    Order_Details o
+JOIN [Dim_Products table] p ON o.[Product ID]= p.[Product ID]
+JOIN [Dim_Region table]r ON o.[Dim_Regiontable City_id] = r.City_id
+GROUP BY 
+     p.Category, 
+     Region
+ORDER BY 
+    Profit_Margin_Percent DESC;
+```
 [click here 👉Link to the full GitHub repository for detailed queries👈](https://github.com/Tibson-spec/Sample-Superstore-Dataset-Project)
 
 ---
