@@ -86,8 +86,8 @@ This project involved analyzing a large e-commerce dataset to uncover actionable
 ---
 
 ### **Recommendations**
-- Launch seasonal promotions for **Technology** and **Office Supplies** during Q4 to maximize revenue.  
-- Focus marketing efforts on the **West Coast** and **Midwest** regions for higher profitability.  
+- Launch seasonal promotions for **Technology** and **Office Supplies** during Q4 and Q3 respectively to maximize revenue.  
+- Focus marketing efforts on the **West** and **East** regions for higher profitability.  
 - Implement loyalty programs for **Consumer** and **Corporate** segments to enhance customer retention.  
 - Optimize inventory for high-margin products like **Technology** to increase overall profit.
 - Stock high-demand Technology products in anticipation of Q4 peaks to avoid stockouts.
@@ -484,7 +484,8 @@ Retrenchment disproportionately impacts employees with poor work-life balance.
 
 ---
 
-### **Visuals & Dashboard Highlights**  
+### **Visuals & Dashboard Highlights**
+###  Overview Dashboard
 
 #### **Attrition by Job Role**  
 - Visualization: Clustered Bar Chart  
