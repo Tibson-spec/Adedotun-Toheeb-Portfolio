@@ -446,9 +446,10 @@ The first step was cleaning and analyzing the dataset using SQL queries.
 - Visualization: Table Highlighting roles with the highest turnover and how their monthly income and years at company correlates with attrition.  
 - Insight: Sales Executives and Lab Technicians have the highest attrition rates.
 
-#### **Work-Life Balance vs. Attrition**  
-- Visualization: Stacked Bar Chart Demonstrating the impact of low satisfaction.  
-- Insight: Poor work-life balance correlates with higher attrition.
+#### **Work-Life Balance vs. Attrition**
+![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/work%20life%20vs%20attrition.PNG?raw=true)
+- Visualization: Stacked Bar Chart Demonstrating the impact of work-life balance
+- Insight: Very Poor work-life balance correlates with higher attrition.
 
 #### **Attrition by Marital Status**  
 - Visualization: Donut Chart  
