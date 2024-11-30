@@ -442,8 +442,8 @@ The first step was cleaning and analyzing the dataset using SQL queries.
 ![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/Images/HR%20overview.PNG?raw=true)
 
 #### **Attrition by Job Role** 
-![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/Images/Attrition%20by%20jobrole.PNG?raw=true)
-- Visualization: Clustered Bar Chart Highlighting roles with the highest turnover.  
+![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/Images/Att%20by%20Job%20role.PNG?raw=true)
+- Visualization: Table Highlighting roles with the highest turnover and how their monthly income and years at company correlates with attrition.  
 - Insight: Sales Executives and Lab Technicians have the highest attrition rates.
 
 #### **Work-Life Balance vs. Attrition**  
