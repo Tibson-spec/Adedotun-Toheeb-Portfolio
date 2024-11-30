@@ -437,11 +437,15 @@ The first step was cleaning and analyzing the dataset using SQL queries.
   - Employees earning <$3,000/month showed higher attrition rates.  
   - Work-life balance ratings of 1 or 2 correlated with increased attrition.  
 
-#### **2. Power BI Dashboard Creation**  
+#### **2. Visuals & Dashboard Highlights**
 The cleaned datasets was imported into Power BI for visualization.  
+###  Overview Dashboard
+![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/Images/HR%20overview.PNG?raw=true)
 
 - **Visualizations Included:**
-  - **Overview dashboard
+#### **Attrition by Job Role**  
+- Visualization: Clustered Bar Chart  
+- Insight: Sales Executives and Lab Technicians have the highest attrition rates.  
   - **Attrition by Job Role:** Highlighting roles with the highest turnover.  
   - **Work-Life Balance vs. Attrition:** Demonstrating the impact of low satisfaction.  
   - **Attrition by Marital Status:** Revealing single employees’ higher likelihood of leaving.
