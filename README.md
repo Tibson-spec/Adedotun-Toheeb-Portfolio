@@ -440,7 +440,9 @@ The first step was cleaning and analyzing the dataset using SQL queries.
 #### **2. Visuals & Dashboard Highlights**
 ####  Overview Dashboard
 ![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/Images/HR%20overview.PNG?raw=true)
-#### **Attrition by Job Role**  
+
+#### **Attrition by Job Role** 
+![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/Images/Attrition%20by%20jobrole.PNG?raw=true)
 - Visualization: Clustered Bar Chart Highlighting roles with the highest turnover.  
 - Insight: Sales Executives and Lab Technicians have the highest attrition rates.
 
@@ -452,14 +454,23 @@ The first step was cleaning and analyzing the dataset using SQL queries.
 - Visualization: Donut Chart  
 - Insight: Single employees leave more frequently.  
 
+#### **Attrition by Overtime**  
+- Visualization: Donut Chart  
+- Insight: Hov overtime drives attrition.
 
-  - **Attrition by Marital Status:** Revealing single employees’ higher likelihood of leaving.
-  - Attrition by Overtime: Hov overtime drives attrition
-  - Attrition by Educationfield
-  - Attrition by Department: Highlighting the department with largest attrition rATE
-  - Attrition by BussinessTravel e.t.c
+#### **Attrition by Educationfield**  
+- Visualization: Clustered Bar Chart  
+- Insight: Human resources has higher attrition rate compared to other education field
 
-- **Dashboard Features:**  
+#### **Attrition by Department**  
+- Visualization: Clustered Column Chart  
+- Insight: Highlighting the department with largest attrition rate.
+
+#### **Attrition by BussinessTravel**  
+- Visualization: Donut Chart  
+- Insight: Employee that travels_frequently tends to leave the company
+
+### **Dashboard Features:**  
   - Interactive slicers for filtering by department, income, and satisfaction levels.  
   - Dynamic tooltips to provide additional data points on hover.  
   - Drill-through pages for deep-diving into specific demographics or roles.  
@@ -490,25 +501,6 @@ Retrenchment disproportionately impacts employees with poor work-life balance.
 5. Retention Programs: Design and implement data-driven retention programs to target high-risk employee groups.
 6. Create mentorship and upskilling programs to engage younger employees.
 7. Provide additional support to employees undergoing life transitions, such as divorce.   
-
----
-
-### **Visuals & Dashboard Highlights**
-###  Overview Dashboard
-
-#### **Attrition by Job Role**  
-- Visualization: Clustered Bar Chart  
-- Insight: Sales Executives and Lab Technicians have the highest attrition rates.  
-
-#### **Work-Life Balance vs. Attrition**  
-- Visualization: Stacked Bar Chart  
-- Insight: Poor work-life balance correlates with higher attrition.  
-
-#### **Attrition by Marital Status**  
-- Visualization: Donut Chart  
-- Insight: Single employees leave more frequently.  
-
-*(Screenshots of these visualizations can be included in your portfolio for better impact.)*  
 
 ---
 
