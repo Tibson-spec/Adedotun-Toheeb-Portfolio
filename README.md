@@ -441,12 +441,18 @@ The first step was cleaning and analyzing the dataset using SQL queries.
 ####  Overview Dashboard
 ![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/Images/HR%20overview.PNG?raw=true)
 #### **Attrition by Job Role**  
-- Visualization: Clustered Bar Chart  
-- Insight: Sales Executives and Lab Technicians have the highest attrition rates.  
-#### **Attrition by Job Role**  
-  - Visualization: Clustered Bar Chart Highlighting roles with the highest turnover.   
-  - Insight: Sales Executives and Lab Technicians have the highest attrition rates.  
-  - **Work-Life Balance vs. Attrition:** Demonstrating the impact of low satisfaction.  
+- Visualization: Clustered Bar Chart Highlighting roles with the highest turnover.  
+- Insight: Sales Executives and Lab Technicians have the highest attrition rates.
+
+#### **Work-Life Balance vs. Attrition**  
+- Visualization: Stacked Bar Chart Demonstrating the impact of low satisfaction.  
+- Insight: Poor work-life balance correlates with higher attrition.
+
+#### **Attrition by Marital Status**  
+- Visualization: Donut Chart  
+- Insight: Single employees leave more frequently.  
+
+
   - **Attrition by Marital Status:** Revealing single employees’ higher likelihood of leaving.
   - Attrition by Overtime: Hov overtime drives attrition
   - Attrition by Educationfield
