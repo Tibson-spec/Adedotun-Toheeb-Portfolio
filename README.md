@@ -451,7 +451,8 @@ The first step was cleaning and analyzing the dataset using SQL queries.
 - Visualization: Stacked Bar Chart Demonstrating the impact of work-life balance
 - Insight: Very Poor work-life balance correlates with higher attrition.
 
-#### **Attrition by Marital Status**  
+#### **Attrition by Marital Status**
+![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/Images/Attritrion%20by%20marital%20status.PNG?raw=true)
 - Visualization: Donut Chart  
 - Insight: Single employees leave more frequently.  
 
