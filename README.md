@@ -438,15 +438,11 @@ The first step was cleaning and analyzing the dataset using SQL queries.
   - Work-life balance ratings of 1 or 2 correlated with increased attrition.  
 
 #### **2. Visuals & Dashboard Highlights**
-The cleaned datasets was imported into Power BI for visualization.  
-###  Overview Dashboard
+##  Overview Dashboard
 ![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/Images/HR%20overview.PNG?raw=true)
-
-- **Visualizations Included:**
 #### **Attrition by Job Role**  
-- Visualization: Clustered Bar Chart  
-- Insight: Sales Executives and Lab Technicians have the highest attrition rates.  
-  - **Attrition by Job Role:** Highlighting roles with the highest turnover.  
+  - Visualization: Clustered Bar Chart Highlighting roles with the highest turnover.   
+  - Insight: Sales Executives and Lab Technicians have the highest attrition rates.  
   - **Work-Life Balance vs. Attrition:** Demonstrating the impact of low satisfaction.  
   - **Attrition by Marital Status:** Revealing single employees’ higher likelihood of leaving.
   - Attrition by Overtime: Hov overtime drives attrition
