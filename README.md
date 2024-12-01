@@ -489,7 +489,7 @@ The first step was cleaning and analyzing the dataset using SQL queries.
 #### **Average Monthly Income vs. Attrition Rate by Job Role**
 ![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/Images/monthy....PNG?raw=true)
 - Visualization: Line and Stacked Column Chart  
-- Insight: Shows how low monthly income drives attrition.
+- Insight: Shows how employee with low monthly income drives attrition.
 
 #### **Attrition Rate by Job Satisfaction Level**
 ![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/Images/ATT%20by%20job%20satisfaction.PNG?raw=true)
@@ -504,7 +504,7 @@ The first step was cleaning and analyzing the dataset using SQL queries.
 #### **Average Monthly Income Across Job Levels**
 ![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/Images/monthly%20income%20vs%20attrition.PNG?raw=true)
 - Visualization: Line Chart
-
+- Insight: Highlights monthly income of each job levels.
 
 ### **Dashboard Features:**  
   - Interactive slicers for filtering by gender, department, job role, and marital status.  
@@ -546,7 +546,7 @@ Retrenchment disproportionately impacts employees with poor work-life balance.
   - Attrition analysis: `SQL_Analysis_Queries.sql`  
 - **Power BI Dashboard:**  
   - File: [HR_Attrition_Analysis.pbix](https://drive.google.com/file/d/1GVbQdMigFF6RPi9GOiIaStRya4X5czwq/view?usp=sharing)  
-  - Screenshots: Attached in project gallery.  
+  - Screenshots: [Click here for images](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/tree/main/Images) 
 
 ---
 
