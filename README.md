@@ -459,7 +459,7 @@ The first step was cleaning and analyzing the dataset using SQL queries.
 #### **Attrition by Overtime**
 ![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/Images/att%20by%20overtime.PNG?raw=true)
 - Visualization: Donut Chart  
-- Insight: Hov overtime drives attrition.
+- Insight: How overtime drives attrition.
 
 #### **Attrition rate by performance level across various department
 ![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/Images/ATT%20%20by%20performance%20across%20dept.PNG?raw=true)
@@ -471,7 +471,8 @@ The first step was cleaning and analyzing the dataset using SQL queries.
 - Visualization: Clustered Bar Chart  
 - Insight: Human resources has higher attrition rate compared to other education field
 
-#### **Attrition by Department**  
+#### **Attrition by Department**
+![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/Images/att%20by%20dept.PNG?raw=true)
 - Visualization: Clustered Column Chart  
 - Insight: Highlighting the department with largest attrition rate.
 
