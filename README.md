@@ -541,11 +541,11 @@ Retrenchment disproportionately impacts employees with poor work-life balance.
 ---
 
 ### **Project Files**  
-- **SQL Scripts:**  
+- **SQL Scripts:**[Click here](https://github.com/Tibson-spec/HR_Employee_Attrition_Analysis-Project/blob/main/HR%20Attrition%20Projects.sql)  
   - Data cleaning: `SQL_Cleaning_Scripts.sql`  
   - Attrition analysis: `SQL_Analysis_Queries.sql`  
 - **Power BI Dashboard:**  
-  - File: `HR_Attrition_Analysis.pbix`  
+  - File: [HR_Attrition_Analysis.pbix](https://drive.google.com/file/d/1GVbQdMigFF6RPi9GOiIaStRya4X5czwq/view?usp=sharing)  
   - Screenshots: Attached in project gallery.  
 
 ---
