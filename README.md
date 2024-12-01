@@ -66,7 +66,7 @@ This project involved analyzing a large e-commerce dataset to uncover actionable
 ![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/images%20folderimages/SALES%20%20TREND.PNG?raw=true)
 
 1. **Sales Trends**: Interactive chart showing monthly sales.
-![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/Sale%20Trend%20(area%20chart).PNG?raw=true)
+![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/images%20folderimages/Sale%20Trend%20(area%20chart).PNG?raw=true)
 
 2. **Profit Performance by Region**: Stacked bar chart highlighting profitability differences.
 ![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/images%20folderimages/PROFIT%20MARG.PNG?raw=true)
@@ -284,7 +284,7 @@ This project dives into employee attrition, leveraging SQL and Power BIto analyz
 - Features Analyzed: 
   - Demographics: Age, gender, marital status.  
   - Job Details: Job role, monthly income, satisfaction levels.  
-  - Attrition Factors:** Overtime, work-life balance, distance from home.  
+  - Attrition Factors: Overtime, work-life balance, distance from home.  
 
 ---
 
@@ -461,7 +461,7 @@ The first step was cleaning and analyzing the dataset using SQL queries.
 - Visualization: Donut Chart  
 - Insight: How overtime drives attrition.
 
-#### **Attrition rate by performance level across various department
+#### Attrition rate by performance level across various department
 ![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/Images/ATT%20%20by%20performance%20across%20dept.PNG?raw=true)
 - Visualization: Stacked Bar Chart  
 - Insight: Sales departments with Moderate ratimgs has higher attrition rate compared to high rating performance.
