@@ -487,7 +487,7 @@ The first step was cleaning and analyzing the dataset using SQL queries.
 - Insight: Employee with (Age 20-30) shows higher attrition rate
 
 #### **Average Monthly Income vs. Attrition Rate by Job Role**
-![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/Images/ATT%20by%20job%20satisfaction.PNG?raw=true)
+![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/Images/monthy....PNG?raw=true)
 - Visualization: Line and Stacked Column Chart  
 - Insight: Shows how low monthly income drives attrition.
 
@@ -497,10 +497,14 @@ The first step was cleaning and analyzing the dataset using SQL queries.
 - Insight: Employee that are very disatisfied tends to leave the company.
 
 #### **Attrition Rate Across Distance Categories**
-![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/Images/Att%20by%20Business%20Travel.PNG?raw=true)
+![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/Images/proximity.PNG?raw=true)
 - Visualization: Stacked Column Chart  
 - Insight: Employees that stays far from the company are likely to leave
-https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/Images/ATT%20by%20job%20satisfaction.PNG?raw=true
+
+#### **Average Monthly Income Across Job Levels**
+![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/Images/ATT%20by%20job%20satisfaction.PNG?raw=true)
+- Visualization: Line Chart  
+- Insight: Employees that stays far from the company are likely to leave
 
 ### **Dashboard Features:**  
   - Interactive slicers for filtering by gender, department, job role, and marital status.  
