@@ -476,12 +476,28 @@ The first step was cleaning and analyzing the dataset using SQL queries.
 - Visualization: Clustered Column Chart  
 - Insight: Highlighting the department with largest attrition rate.
 
-#### **Attrition by BussinessTravel**  
+#### **Attrition by BussinessTravel**
+![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/Images/Att%20by%20Business%20Travel.PNG?raw=true)
 - Visualization: Donut Chart  
 - Insight: Employee that travels_frequently tends to leave the company
 
+#### **Attrition by AgeGroup**
+![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/Images/Att%20by%20Business%20Travel.PNG?raw=true)
+- Visualization: Stacked Bar Chart  
+- Insight: Employee with (Age 20-30) shows higher attrition rate
+
+#### **Average Monthly Income vs. Attrition Rate by Job Role**
+![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/Images/Att%20by%20Business%20Travel.PNG?raw=true)
+- Visualization: Line and Stacked Column Chart  
+- Insight: Shows how low monthly income drives attrition.
+
+#### **Attrition Rate Across Distance Categories**
+![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/Images/Att%20by%20Business%20Travel.PNG?raw=true)
+- Visualization: Stacked Column Chart  
+- Insight: Employees that stays far from the company are likely to leave
+
 ### **Dashboard Features:**  
-  - Interactive slicers for filtering by department, income, and satisfaction levels.  
+  - Interactive slicers for filtering by gender, department, job role, and marital status.  
   - Dynamic tooltips to provide additional data points on hover.  
   - Drill-through pages for deep-diving into specific demographics or roles.  
 
@@ -494,7 +510,7 @@ The first step was cleaning and analyzing the dataset using SQL queries.
 4. **Distance Matters:** Employees commuting >20 km are likelier to leave.  
 5. **Job Satisfaction:** Dissatisfied employees rated 1 (Very Disatisfied) have a 35% higher likelihood of leaving.
 6. Attrition Rate: High attrition rate observed in specific departments such as Sales and Human Resources.
-7. Age Group Impact: Younger employees (Age 20-30) and single employees show higher attrition rates.
+7. Age Group Impact: Younger employees (Age 20-30) show higher attrition rates.
 8. Job Role Variations: Sales Executives and Lab Technicians have the highest attrition.
 9. High-performing employees tend to stay longer when they perceive opportunities for career growth.
 10. Employees working overtime are more likely to leave, especially if paired with poor work-life balance (rated 1 or 2).
