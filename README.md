@@ -449,14 +449,15 @@ The first step was cleaning and analyzing the dataset using SQL queries.
 #### **Work-Life Balance vs. Attrition**
 ![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/Images/work%20life%20vs%20attrition.PNG?raw=true)
 - Visualization: Stacked Bar Chart Demonstrating the impact of work-life balance
-- Insight: Very Poor work-life balance correlates with higher attrition.
+- Insight: Employee with Very Poor work-life balance correlates with higher attrition.
 
 #### **Attrition by Marital Status**
 ![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/Images/Attritrion%20by%20marital%20status.PNG?raw=true)
 - Visualization: Donut Chart  
 - Insight: Single employees leave more frequently.  
 
-#### **Attrition by Overtime**  
+#### **Attrition by Overtime**
+![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/Images/att%20by%20overtime.PNG?raw=true)
 - Visualization: Donut Chart  
 - Insight: Hov overtime drives attrition.
 
