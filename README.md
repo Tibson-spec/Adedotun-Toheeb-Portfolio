@@ -491,6 +491,11 @@ The first step was cleaning and analyzing the dataset using SQL queries.
 - Visualization: Line and Stacked Column Chart  
 - Insight: Shows how low monthly income drives attrition.
 
+#### **Attrition Rate by Job Satisfaction Level**
+![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/Images/ATT%20by%20job%20satisfaction.PNG?raw=true)
+- Visualization: Stacked Column Chart  
+- Insight: Employee that are very disatisfied tends to leave the company.
+
 #### **Attrition Rate Across Distance Categories**
 ![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/Images/Att%20by%20Business%20Travel.PNG?raw=true)
 - Visualization: Stacked Column Chart  
