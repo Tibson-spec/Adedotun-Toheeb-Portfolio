@@ -502,9 +502,9 @@ The first step was cleaning and analyzing the dataset using SQL queries.
 - Insight: Employees that stays far from the company are likely to leave
 
 #### **Average Monthly Income Across Job Levels**
-![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/Images/ATT%20by%20job%20satisfaction.PNG?raw=true)
-- Visualization: Line Chart  
-- Insight: Employees that stays far from the company are likely to leave
+![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/Images/monthly%20income%20vs%20attrition.PNG?raw=true)
+- Visualization: Line Chart
+
 
 ### **Dashboard Features:**  
   - Interactive slicers for filtering by gender, department, job role, and marital status.  
