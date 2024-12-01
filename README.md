@@ -461,12 +461,13 @@ The first step was cleaning and analyzing the dataset using SQL queries.
 - Visualization: Donut Chart  
 - Insight: Hov overtime drives attrition.
 
-#### **Attrition by Educationfield** 
+#### **Attrition rate by performance level across various department
 ![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/Images/ATT%20%20by%20performance%20across%20dept.PNG?raw=true)
-- Visualization: Clustered Bar Chart  
-- Insight: Human resources has higher attrition rate compared to other education field
+- Visualization: Stacked Bar Chart  
+- Insight: Sales departments with Moderate ratimgs has higher attrition rate compared to high rating performance.
 
-#### **Attrition by Educationfield**  
+#### **Attrition by Educationfield** 
+![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/Images/Att%20by%20education.PNG?raw=true)
 - Visualization: Clustered Bar Chart  
 - Insight: Human resources has higher attrition rate compared to other education field
 
