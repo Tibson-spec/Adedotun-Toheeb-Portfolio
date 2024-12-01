@@ -487,7 +487,7 @@ The first step was cleaning and analyzing the dataset using SQL queries.
 - Insight: Employee with (Age 20-30) shows higher attrition rate
 
 #### **Average Monthly Income vs. Attrition Rate by Job Role**
-![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/Images/monthly%20income%20vs%20attrition.PNG?raw=true)
+![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/Images/ATT%20by%20job%20satisfaction.PNG?raw=true)
 - Visualization: Line and Stacked Column Chart  
 - Insight: Shows how low monthly income drives attrition.
 
