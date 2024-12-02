@@ -551,10 +551,10 @@ In Power BI, I created an interactive dashboard to visualize Adidas’s sales da
 
 ## Project Files
 
-- `Adidas Sales Dataset.xlsx`: Raw dataset used for the analysis.
-- `Data Cleaning Script.txt`: Excel Power Query script for data cleaning and transformation.
-- `SQL Queries.sql`: SQL Server queries for analysis.
-- `Power BI Dashboard.pbix`: Power BI file with interactive dashboards.
+- `Adidas Sales Dataset.xlsx`: [Raw dataset used for the analysis](https://docs.google.com/spreadsheets/d/1cfgPIvtsAYt78ztIvDlWpAmk8iRH0dW7/edit?usp=sharing&ouid=114563417088593971734&rtpof=true&sd=true)
+- `Data Cleaning Script.txt`: [Excel Power Query script for data cleaning and transformation](https://docs.google.com/spreadsheets/d/15c8CIPmSwQA2fjbo7jfxajfRMHQEXj2S/edit?usp=sharing&ouid=114563417088593971734&rtpof=true&sd=true)
+- `SQL Queries.sql`: [SQL Server queries for analysis](https://github.com/Tibson-spec/Adidas-Sales-Analysis-Project/blob/main/Adidas%20Sales%20Dataset(Personal%20Projects)/Adidas%20analysis(portfolio%20p).sql
+- `Power BI Dashboard.pbix`: [Power BI file with interactive dashboards](https://drive.google.com/file/d/1OVph3uerhHWEDWxhLEca9FzyLzHsK2Yh/view?usp=sharing)
 - `README.md`: Project documentation.
 
 ---
