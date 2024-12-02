@@ -460,7 +460,7 @@ CREATE TABLE dbo.DateTable (
 );
    ```
 
-#### 11. Create time Intelligence table I.E Date table
+#### 11. Populate time Intelligence table I.E Date table
    ```sql
 DECLARE @CurrentDate DATE = '2020-01-01';  -- Used the Start date
 DECLARE @EndDate DATE = '2021-12-31';     -- Set the end date
@@ -510,51 +510,17 @@ In Power BI, I created an interactive dashboard to visualize Adidas’s sales da
 
 ## Key Findings
 
-1. **Top Products**: Certain product categories emerged as high-revenue drivers, offering opportunities for strategic promotions.
-2. **Seasonality in Sales**: Maximum Sales in Q3 and Q4 indicate opportunities for holiday and seasonal marketing.
+1. **Top Products**: Certain product categories such as men street footwear emerged as high-revenue drivers, offering opportunities for strategic promotions.
+2. **Seasonality in Sales**: Sales and profits show seasonal fluctuations, with peak periods in Q3 and Q4 which indicate opportunities for holiday and seasonal marketing.
 3. **Regional Differences**: Certain regions such as West and Northeast show higher growth rates, suggesting potential for regional-focused strategies.
 4. **Profit Margins**: Products with higher profit margins but lower sales volumes may benefit from targeted upselling.
+5. Seasonal Trends: Identified Q3 and Q4 peak sales months, revealing key times of demand for Adidas products.
+6. Quarterly Patterns: Sales consistently spiked in Q3, indicating a high-performing season which indicates a strategic period for promotions and inventory management.
+7. Year-Over-Year Growth: Observed steady growth in total sales, with notable increases in 2021.
+8. State Performance: States like New-York and california lead in overall sales, with New-York showing the highest growth rates. Emerging markets have lower but gradually increasing sales, indicating potential growth with tailored marketing efforts.
+9. A significant proportion of sales comes from a few top-performing retailers such as west gear and foot locker.
+11. Online sales are gaining momentum, but in-store sales remain a strong contributor
 
----
-
-## Project Files
-
-- `Adidas Sales Dataset.xlsx`: Raw dataset used for the analysis.
-- `Data Cleaning Script.txt`: Excel Power Query script for data cleaning and transformation.
-- `SQL Queries.sql`: SQL Server queries for analysis.
-- `Power BI Dashboard.pbix`: Power BI file with interactive dashboards.
-- `README.md`: Project documentation.
-
----
-
-## Conclusion
-
-This project demonstrates a full data analysis pipeline, from data cleaning and transformation to analysis and visualization. By using Excel, SQL, and Power BI, this project exemplifies a strategic approach to transforming raw data into insights for decision-making across Adidas’s business areas.
-
----
-
-Here are the **key findings** and **recommendations** based on the Adidas sales analysis:
-
----
-
-## Key Findings
-
-1. **Top Performing Products**:
-   - Certain product categories contribute disproportionately to overall revenue and operating profit, highlighting these as major revenue drivers.
-   - Specific products with high sales volumes also show favorable profit margins, making them high-value targets.
-
-2. **Monthly Sales Trends and Seasonality**:
-   - Sales peak during Q3 and Q4, indicating a strong seasonality effect, likely influenced by holidays and peak shopping seasons.
-   - Certain months show consistently lower sales, suggesting periods with less customer engagement.
-
-3. **Regional Performance**:
-   - Regions like North America and Europe lead in overall sales, with North America showing the highest growth rates.
-   - Emerging markets have lower but gradually increasing sales, indicating potential growth with tailored marketing efforts.
-
-4. **Profit Margins**:
-   - Products with lower sales volumes sometimes display higher profit margins. These products may benefit from focused upselling strategies to boost revenue.
-
----
 
 ## Recommendations
 
@@ -574,9 +540,32 @@ Here are the **key findings** and **recommendations** based on the Adidas sales 
    - **Action**: Implement upselling techniques, such as bundling or targeted promotions, for products with higher profit margins but lower sales.
    - **Impact**: Boosts profitability without the need to increase high-cost marketing, by leveraging existing high-margin items.
 
-5. **Customer Retention and Engagement**:
+5. **Retailer Retention and Engagement**:
    - **Action**: Initiate loyalty programs and customer engagement campaigns, especially during low-sales months, to stabilize revenue.
    - **Impact**: Helps maintain a steady customer base year-round, smoothing out seasonal fluctuations and enhancing customer lifetime value.
+  
+Conduct a pricing review to ensure competitiveness while maintaining margins.
+Develop tailored incentive programs to encourage high-margin retailers to increase order volumes.
+Invest in digital marketing and e-commerce platforms to further boost online sales while maintaining a robust in-store experience.
+
+---
+
+## Project Files
+
+- `Adidas Sales Dataset.xlsx`: Raw dataset used for the analysis.
+- `Data Cleaning Script.txt`: Excel Power Query script for data cleaning and transformation.
+- `SQL Queries.sql`: SQL Server queries for analysis.
+- `Power BI Dashboard.pbix`: Power BI file with interactive dashboards.
+- `README.md`: Project documentation.
+
+---
+
+## Conclusion
+
+This project demonstrates a full data analysis pipeline, from data cleaning and transformation to analysis and visualization. By using Excel, SQL, and Power BI, this project exemplifies a strategic approach to transforming raw data into insights for decision-making across Adidas’s business areas.
+
+---
+
 
 ---
 
