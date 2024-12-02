@@ -499,12 +499,13 @@ In Power BI, I created an interactive dashboard to visualize Adidas’s sales da
 ### Key Visualizations
 
 1. **Sales by Product**: Bar chart showing total sales and profit by product category(Hover by)
-2. **Monthly Sales Trend**: Line graph illustrating sales trends over months for seasonality insights.
-3. **Regional Sales Performance**: Map visualization for geographic sales distribution.
-4. **Profit Margin by Product**: Stacked Bar Chart showing profit margin across different products.
-5. Total Sales by Retailer: Stacked Bar Chart depocting total sales by each retailer.
-6. Total Transaction by Retailer: Stacked Bar Chart showing which retailers buys more products.
-7. Total Sales by Quarter and Month: Area Chart to show months and quarters making most sales.
+![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/Adidas%20Image/Total%20sales%20by%20P.PNG?raw=true)
+3. **Monthly Sales Trend**: Line graph illustrating sales trends over months for seasonality insights.
+4. **Regional Sales Performance**: Map visualization for geographic sales distribution.
+5. **Profit Margin by Product**: Stacked Bar Chart showing profit margin across different products.
+6. Total Sales by Retailer: Stacked Bar Chart depocting total sales by each retailer.
+7. Total Transaction by Retailer: Stacked Bar Chart showing which retailers buys more products.
+8. Total Sales by Quarter and Month: Area Chart to show months and quarters making most sales.
 
 ---
 
