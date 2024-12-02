@@ -500,12 +500,18 @@ In Power BI, I created an interactive dashboard to visualize Adidas’s sales da
 
 1. **Sales by Product**: Bar chart showing total sales and profit by product category(Hover by)
 ![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/Adidas%20Image/Total%20sales%20by%20P.PNG?raw=true)
-3. **Monthly Sales Trend**: Line graph illustrating sales trends over months for seasonality insights.
-4. **Regional Sales Performance**: Map visualization for geographic sales distribution.
-5. **Profit Margin by Product**: Stacked Bar Chart showing profit margin across different products.
-6. Total Sales by Retailer: Stacked Bar Chart depocting total sales by each retailer.
-7. Total Transaction by Retailer: Stacked Bar Chart showing which retailers buys more products.
-8. Total Sales by Quarter and Month: Area Chart to show months and quarters making most sales.
+2. **Monthly Sales Trend**: Line graph illustrating sales trends over months for seasonality insights.
+![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/Adidas%20Image/Tsales%20by%20Month.PNG?raw=true)
+3. **Regional Sales Performance**: Map visualization for geographic sales distribution.
+![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/Adidas%20Image/map.PNG?raw=true)
+4. **Profit Margin by Product**: Stacked Bar Chart showing profit margin across different products.
+![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/Adidas%20Image/Margin%20by%20product.PNG?raw=true)
+5. Total Sales by Retailer: Stacked Bar Chart depocting total sales by each retailer.
+![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/Adidas%20Image/Tsales%20by%20retail.PNG?raw=true)
+6. Total Transaction by Retailer: Stacked Bar Chart showing which retailers buys more products.
+![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/Adidas%20Image/Transaction%20by%20retailer.PNG?raw=true)
+7. Total Sales by Quarter and Month: Area Chart to show months and quarters making most sales.
+![Image Alt](https://github.com/Tibson-spec/Adedotun-Toheeb-Portfolio/blob/main/Adidas%20Image/Tsales%20by%20Quarter%20and%20month.PNG?raw=true)
 
 ---
 
