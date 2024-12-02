@@ -308,8 +308,6 @@ The data was cleaned and transformed in Excel Power Query to ensure consistency 
 3. **Filtered Columns**: Removed non-essential columns for a streamlined dataset.
 4. **Standardized Column Names**: Renamed columns for compatibility across tools.
 5. **Unpivoted Data**: Transformed month-based columns to facilitate time-based analysis.
-6. **Created Calculated Columns**: Generated custom columns for profit margin and quarter extraction.
-
 *Example Power Query Step for Unpivoting*:
    ```plaintext
    Transform > Unpivot Columns
@@ -436,7 +434,7 @@ ORDER BY
     Total_Sales DESC;
    ```
 
-#### 10. Analyzed Average Units Sold by Sales Channel
+#### 9. Analyzed Average Units Sold by Sales Channel
    ```sql
 SELECT 
     [Sales Method],
@@ -448,6 +446,7 @@ GROUP BY
 ORDER BY 
     Average_Units_Sold DESC;
    ```
+
 #### 10. Create time Intelligence table I.E Date table
    ```sql
 CREATE TABLE dbo.DateTable (
@@ -459,9 +458,38 @@ CREATE TABLE dbo.DateTable (
     Quarter INT,
     MonthName NVARCHAR(10),         -- e.g., "January"
 );
+   ```
 
+#### 11. Create time Intelligence table I.E Date table
+   ```sql
+DECLARE @CurrentDate DATE = '2020-01-01';  -- Used the Start date
+DECLARE @EndDate DATE = '2021-12-31';     -- Set the end date
 
+WHILE @CurrentDate <= @EndDate
+BEGIN
+INSERT INTO DateTable(
+        DateKey,
+        Invoicedate,
+        Day,
+        Month,
+        Year,
+        Quarter,
+        MonthName
+)
+        VALUES (
+        CONVERT(INT, FORMAT(@CurrentDate, 'yyyyMMdd')),         -- DateKey as YYYYMMDD
+        @CurrentDate,                                           -- Invoicedate
+        DAY(@CurrentDate),                                      -- Day
+        MONTH(@CurrentDate),                                    -- Month
+        YEAR(@CurrentDate),                                     -- Year
+        DATEPART(QUARTER, @CurrentDate),                        -- Quarter
+        DATENAME(MONTH, @CurrentDate)                           -- MonthName
+    );
 
+    -- Increment the @CurrentDate by 1 day
+    SET @CurrentDate = DATEADD(DAY, 1, @CurrentDate);
+END
+   ```
 ---
 
 ## Power BI Visualization
@@ -470,18 +498,21 @@ In Power BI, I created an interactive dashboard to visualize Adidas’s sales da
 
 ### Key Visualizations
 
-1. **Sales by Product**: Bar chart showing total sales and profit by product category.
+1. **Sales by Product**: Bar chart showing total sales and profit by product category(Hover by)
 2. **Monthly Sales Trend**: Line graph illustrating sales trends over months for seasonality insights.
 3. **Regional Sales Performance**: Map visualization for geographic sales distribution.
-4. **Profit Margin by Product**: Scatter plot showing profit margin across different products.
+4. **Profit Margin by Product**: Stacked Bar Chart showing profit margin across different products.
+5. Total Sales by Retailer: Stacked Bar Chart depocting total sales by each retailer.
+6. Total Transaction by Retailer: Stacked Bar Chart showing which retailers buys more products.
+7. Total Sales by Quarter and Month: Area Chart to show months and quarters making most sales.
 
 ---
 
 ## Key Findings
 
 1. **Top Products**: Certain product categories emerged as high-revenue drivers, offering opportunities for strategic promotions.
-2. **Seasonality in Sales**: Peaks in Q2 and Q4 indicate opportunities for holiday and seasonal marketing.
-3. **Regional Differences**: Certain regions show higher growth rates, suggesting potential for regional-focused strategies.
+2. **Seasonality in Sales**: Maximum Sales in Q3 and Q4 indicate opportunities for holiday and seasonal marketing.
+3. **Regional Differences**: Certain regions such as West and Northeast show higher growth rates, suggesting potential for regional-focused strategies.
 4. **Profit Margins**: Products with higher profit margins but lower sales volumes may benefit from targeted upselling.
 
 ---
@@ -513,7 +544,7 @@ Here are the **key findings** and **recommendations** based on the Adidas sales 
    - Specific products with high sales volumes also show favorable profit margins, making them high-value targets.
 
 2. **Monthly Sales Trends and Seasonality**:
-   - Sales peak during Q2 and Q4, indicating a strong seasonality effect, likely influenced by holidays and peak shopping seasons.
+   - Sales peak during Q3 and Q4, indicating a strong seasonality effect, likely influenced by holidays and peak shopping seasons.
    - Certain months show consistently lower sales, suggesting periods with less customer engagement.
 
 3. **Regional Performance**:
@@ -532,7 +563,7 @@ Here are the **key findings** and **recommendations** based on the Adidas sales 
    - **Impact**: Enhances revenue and profit through the promotion of products with proven customer demand and profitability.
 
 2. **Leverage Seasonality in Sales**:
-   - **Action**: Plan promotional campaigns around Q2 and Q4 to capitalize on seasonal demand. Introduce seasonal discounts or limited-edition products during peak sales periods.
+   - **Action**: Plan promotional campaigns around Q3 and Q4 to capitalize on seasonal demand. Introduce seasonal discounts or limited-edition products during peak sales periods.
    - **Impact**: Maximizes sales during high-demand periods and drives revenue growth by targeting customer purchase patterns.
 
 3. **Expand Presence in Emerging Markets**:
@@ -549,7 +580,6 @@ Here are the **key findings** and **recommendations** based on the Adidas sales 
 
 ---
 
-These findings and recommendations provide a clear strategy for optimizing Adidas’s sales, leveraging customer behavior, and capitalizing on product and regional strengths.
 
 
 # Project 3
