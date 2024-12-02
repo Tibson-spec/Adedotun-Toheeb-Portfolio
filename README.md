@@ -263,7 +263,7 @@ This project showcases my ability to handle end-to-end data analysis processes, 
 
 
 # Project 2
-# Project Totle Adidas Sales Analysis Project
+# Project Title Adidas Sales Analysis Project
 
 This project showcases a comprehensive analysis of Adidas sales data, leveraging Excel Power Query for data cleaning, SQL Server for in-depth analysis, and Power BI for interactive visualizations. The goal was to derive actionable insights into product performance, customer demographics, and regional sales to guide decisions in sales, marketing, and inventory planning.
 
