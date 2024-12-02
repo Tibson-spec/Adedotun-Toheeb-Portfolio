@@ -543,10 +543,9 @@ In Power BI, I created an interactive dashboard to visualize Adidas’s sales da
 5. **Retailer Retention and Engagement**:
    - **Action**: Initiate loyalty programs and customer engagement campaigns, especially during low-sales months, to stabilize revenue.
    - **Impact**: Helps maintain a steady customer base year-round, smoothing out seasonal fluctuations and enhancing customer lifetime value.
-  
-Conduct a pricing review to ensure competitiveness while maintaining margins.
-Develop tailored incentive programs to encourage high-margin retailers to increase order volumes.
-Invest in digital marketing and e-commerce platforms to further boost online sales while maintaining a robust in-store experience.
+6. Conduct a pricing review to ensure competitiveness while maintaining margins.
+7. Develop tailored incentive programs to encourage high-margin retailers to increase order volumes
+8. Invest in digital marketing and e-commerce platforms to further boost online sales while maintaining a robust in-store experience.
 
 ---
 
